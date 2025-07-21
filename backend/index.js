@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const ai = new GoogleGenAI({
-  apiKey // Replace this
+  apiKey:"AIzaSyBA4wpULJqhtpjByJu_eBYreqV3WJZkxnQ", // Replace this
 });
 
 const History = [];
